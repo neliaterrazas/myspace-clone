@@ -59,6 +59,12 @@ p {
   color: white;
   height: 2em;
 }
+
+.orange-header {
+  background-color: orange;
+  color: red;
+  height: 2em;
+}
 .interests-content{
   display:flex;
 }
@@ -73,4 +79,11 @@ p {
 .right{
   width: 13em;
   background-color: lightgrey;
+}
+.friend-grid{
+  display: flex;
+  justify-content: space-around;
+}
+h4{
+
 }
