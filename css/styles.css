@@ -1,5 +1,5 @@
 * {
-  border: 2px solid pink;
+  border: 2px solid cyan;
 }
 
 #head {
@@ -13,8 +13,17 @@
   color: white;
 }
 
+#content-cont {
+  display: flex;
+  justify-content: space-around;
+}
+
 #left-column {
-  width: 380px;
+  width: 20em;
+}
+
+#right-column {
+  margin-left: 1em;
 }
 
 #tom {
@@ -35,4 +44,33 @@
 
 p {
   margin-bottom: 0;
+}
+
+#extended-network-header {
+  width: 100%;
+  border: 1px solid black;
+  padding: 1em;
+}
+.toms-interests {
+  border: 4px solid #6698CB;
+}
+.blue-header {
+  background-color: #6698CB;
+  color: white;
+  height: 2em;
+}
+.interests-content{
+  display:flex;
+}
+.blue-column{
+  display: flex;
+  flex-direction: column;
+}
+.left {
+  width: 7em;
+  background-color: lightblue;
+}
+.right{
+  width: 13em;
+  background-color: lightgrey;
 }
